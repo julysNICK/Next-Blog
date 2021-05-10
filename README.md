@@ -1,4 +1,4 @@
-This repository will serve as a base for other nextjs projects because with next you can run the following command
+Under construction
 
 First, run the development server:
 
