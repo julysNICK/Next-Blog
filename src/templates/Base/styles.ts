@@ -1,10 +1,9 @@
 import styled, { css } from 'styled-components';
-
 export const Wrapper = styled.div``;
-
 export const HeaderContainer = styled.div`
   ${({ theme }) => css`
     margin-top: ${theme.spacings.xhuge};
+    padding: 0 ${theme.spacings.large};
   `}
 `;
 
@@ -16,7 +15,6 @@ export const ContentContainer = styled.div`
     margin-bottom: ${theme.spacings.xhuge};
   `}
 `;
-
 export const FooterContainer = styled.div`
   ${({ theme }) => css`
     max-width: 120rem;

@@ -1,6 +1,5 @@
 import styled, { css } from 'styled-components';
 import { Title as HeadingStyles } from '../Heading/styles';
-
 export const Wrapper = styled.header`
   ${({ theme }) => css`
     display: flex;
@@ -15,6 +14,13 @@ export const Wrapper = styled.header`
     ${HeadingStyles} {
       margin: 0 0 calc(${theme.spacings.small} - 1rem);
     }
+    @media ${theme.font.media.lteSmall} {
+      display: flex;
+      flex-flow: column wrap;
+      & > ${HeadingStyles} {
+        margin: 0 0 ${theme.spacings.medium} 0;
+      }
+    }
   `}
 `;
 
@@ -24,5 +30,8 @@ export const Content = styled.div`
     flex-flow: column wrap;
     margin-left: ${theme.spacings.large};
     max-width: 48rem;
+    @media ${theme.font.media.lteSmall} {
+      margin-left: 0;
+    }
   `}
 `;
