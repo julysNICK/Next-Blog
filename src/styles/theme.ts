@@ -1,19 +1,17 @@
 export const theme = {
+  name: 'default',
   colors: {
-    primary: '#0A1128',
-    textColor: '#333333',
+    primary: '#000000',
+    darkText: '#333333',
     secondary: '#dc143c',
     white: '#FFFFFF',
-    darkText: '#333333',
     mediumGray: '#DDDDDD',
     darkerGray: '#AAAAAA',
   },
-
   font: {
     family: {
       default: "'Open Sans', sans-serif",
     },
-
     sizes: {
       xsmall: '8rem',
       small: '1.6rem',
@@ -24,13 +22,11 @@ export const theme = {
       huge: '5.6rem',
       xhuge: '6.4rem',
     },
-
-    media: {
-      lteMedium: '(max-width: 768px)',
-      lteSmall: '(max-width: 360px)',
-    },
   },
-
+  media: {
+    lteMedium: '(max-width: 768px)',
+    lteSmall: '(max-width: 360px)',
+  },
   spacings: {
     xsmall: '8rem',
     small: '1.6rem',
@@ -45,4 +41,4 @@ export const theme = {
     max: '96rem',
     content: '80rem',
   },
-} as const;
+};

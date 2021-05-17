@@ -2,7 +2,7 @@
 
 exports[`<PostGrid /> should match snapshot 1`] = `
 .c5 {
-  color: #0A1128;
+  color: #000000;
   line-height: 1.2;
   font-size: 2.4rem;
   text-transform: none;

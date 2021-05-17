@@ -9,7 +9,7 @@ const wrapperChanger = (
 ) => css`
   left: ${menuVisible ? '0' : '-30rem'};
   overflow-y: ${menuVisible ? 'auto' : 'hidden'};
-  @media ${theme.font.media.lteMedium} {
+  @media ${theme.media.lteMedium} {
     left: ${menuVisible ? '0' : '-32rem'};
   }
 `;
@@ -54,7 +54,7 @@ const buttonChanger = (
 ) => css`
   left: ${menuVisible ? '26rem' : '1rem'};
   color: ${menuVisible ? theme.colors.secondary : theme.colors.white};
-  @media ${theme.font.media.lteMedium} {
+  @media ${theme.media.lteMedium} {
     left: ${menuVisible ? '26rem' : '-0.5rem'};
   }
 `;

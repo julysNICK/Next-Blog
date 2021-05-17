@@ -52,7 +52,7 @@ describe('<Footer />', () => {
       }
 
       .c1 pre {
-        background: #0A1128;
+        background: #000000;
         padding: 2.4rem;
         font-family: monospace;
         color: #FFFFFF;

@@ -88,7 +88,7 @@ export const Container = styled.div`
       font-style: italic;
       margin: ${theme.spacings.medium};
     }
-    @media ${theme.font.media.lteMedium} {
+    @media ${theme.media.lteMedium} {
       font-size: 2rem;
       .image-style-side {
         max-width: 100%;

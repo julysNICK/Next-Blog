@@ -16,7 +16,7 @@ export const ArticleMeta = ({
   return (
     <Styled.Wrapper>
       <p>
-        {typeof author !== 'undefined' && (
+        {author && typeof author !== 'undefined' && (
           <>
             <span>Por </span>
             <Link href={`/author/${author.slug}`}>
@@ -25,8 +25,10 @@ export const ArticleMeta = ({
             <span className="separator"> | </span>
           </>
         )}
+
         <time dateTime={createdAt}>{formatDate(createdAt)}</time>
-        {categories.length > 0 && (
+
+        {categories && categories.length > 0 && (
           <>
             <span className="separator"> | </span>
             <span className="categories">

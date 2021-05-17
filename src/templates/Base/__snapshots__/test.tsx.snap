@@ -1,29 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BaseTemplate /> should render base elements 1`] = `
-.c15 {
+.c22 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c15 a {
+.c22 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c16 {
+.c23 {
   font-size: calc(1.6rem+ 0.2rem);
   line-height: 1.5;
 }
 
-.c16 p {
+.c23 p {
   margin: 2.4rem 0;
 }
 
-.c16 a,
-.c16 a:visited,
-.c16 a:link {
+.c23 a,
+.c23 a:visited,
+.c23 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -31,12 +31,12 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c16 a:hover {
+.c23 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c16 code {
+.c23 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -45,8 +45,8 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   margin: 0.2rem;
 }
 
-.c16 pre {
-  background: #0A1128;
+.c23 pre {
+  background: #000000;
   padding: 2.4rem;
   font-family: monospace;
   color: #FFFFFF;
@@ -56,22 +56,22 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   font-size: 1.6rem;
 }
 
-.c16 pre code {
+.c23 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c16 img {
+.c23 img {
   max-width: 100%;
 }
 
-.c16 .image {
+.c23 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c16 .image figcaption {
+.c23 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
@@ -81,35 +81,35 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   margin: 2.4rem;
 }
 
-.c16 hr {
+.c23 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c16 ul,
-.c16 ol {
+.c23 ul,
+.c23 ol {
   margin: 4.0rem 4.0rem;
 }
 
-.c16 .table {
+.c23 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
   margin: 2.4rem;
 }
 
-.c16 table {
+.c23 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c16 table td,
-.c16 table th {
+.c23 table td,
+.c23 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c16 blockquote {
+.c23 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -119,8 +119,9 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   margin: 2.4rem;
 }
 
-.c17 {
+.c24 {
   position: fixed;
+  background: #000000;
   color: #FFFFFF;
   display: -webkit-box;
   display: -webkit-flex;
@@ -141,27 +142,27 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   z-index: 6;
 }
 
-.c1 {
+.c6 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
 }
 
-.c6 {
-  color: #0A1128;
+.c11 {
+  color: #000000;
   line-height: 1.2;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
 
-.c12 {
-  color: #0A1128;
+.c17 {
+  color: #000000;
   line-height: 1.2;
   font-size: 2.4rem;
   text-transform: none;
 }
 
-.c7 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -175,13 +176,13 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   color: inherit;
 }
 
-.c7 > img {
+.c12 > img {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
 }
 
-.c10 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -202,11 +203,11 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   margin: 0 auto;
 }
 
-.c10 .c5 {
+.c15 .c10 {
   margin: 0 0 calc(1.6rem - 1rem);
 }
 
-.c11 {
+.c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -218,25 +219,25 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   max-width: 48rem;
 }
 
-.c8 {
+.c13 {
   display: block;
   color: #FFFFFF;
   -webkit-text-decoration: none;
   text-decoration: none;
   margin-bottom: 1.6rem;
   font-size: 1.8rem;
-  border-right: 0.5rem solid #0A1128;
+  border-right: 0.5rem solid #000000;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
-.c8:hover {
+.c13:hover {
   border-right: 0.5rem solid #dc143c;
   color: #dc143c;
 }
 
-.c2 {
-  background: #0A1128;
+.c7 {
+  background: #000000;
   padding: 3.2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -256,12 +257,12 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   overflow-y: hidden;
 }
 
-.c3 {
+.c8 {
   margin: auto;
   width: 100%;
 }
 
-.c4 .c5 {
+.c9 .c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -274,15 +275,15 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   margin-bottom: 4.8rem;
 }
 
-.c4 .c5 img {
+.c9 .c10 img {
   border: 0.5rem solid #dc143c;
 }
 
-.c0 {
+.c5 {
   position: fixed;
   top: 2.4rem;
   color: #FFFFFF;
-  background: #0A1128;
+  background: #000000;
   z-index: 2;
   width: 3rem;
   height: 3rem;
@@ -293,18 +294,112 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   color: #FFFFFF;
 }
 
-.c9 {
-  margin-top: 6.4rem;
+.c0 {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 2;
 }
 
-.c13 {
+.c1 {
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  height: 2.5rem;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  color: rgba(0,0,0,0);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.c2:checked + .c3 {
+  background: #dc143c;
+}
+
+.c2:focus + .c3 {
+  box-shadow: 0 0 1px #dc143c;
+}
+
+.c2:checked + .c3:before {
+  -webkit-transform: translateX(1.9rem);
+  -ms-transform: translateX(1.9rem);
+  transform: translateX(1.9rem);
+  background: #000000;
+}
+
+.c4 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #DDDDDD;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  border-radius: 2rem;
+  box-shadow: 0 0 1px #000000;
+}
+
+.c4:before {
+  content: '';
+  position: absolute;
+  height: 2.1rem;
+  width: 2.1rem;
+  left: 0.4rem;
+  bottom: 0.2rem;
+  background: #333333;
+  border-radius: 50%;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c14 {
+  margin-top: 6.4rem;
+  padding: 0 3.2rem;
+}
+
+.c18 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c19 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c20 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c14 {
+.c21 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -312,25 +407,47 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c23 {
     font-size: 2rem;
   }
 
-  .c16 .image-style-side {
+  .c23 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
   }
 }
 
+@media (max-width:360px) {
+  .c15 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+
+  .c15 > .c10 {
+    margin: 0 0 2.4rem 0;
+  }
+}
+
+@media (max-width:360px) {
+  .c16 {
+    margin-left: 0;
+  }
+}
+
 @media (max-width:768px) {
-  .c2 {
+  .c7 {
     left: -32rem;
   }
 }
 
 @media (max-width:768px) {
-  .c0 {
+  .c5 {
     left: -0.5rem;
   }
 }
@@ -339,16 +456,33 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   <div
     class=""
   >
+    <div
+      class="c0"
+    >
+      <label
+        class="c1"
+      >
+        Toggle light and dark modes
+        <input
+          class="c2"
+          type="checkbox"
+          value="Dark mode active"
+        />
+        <span
+          class="c3 c4"
+        />
+      </label>
+    </div>
     <a
       aria-label="Open or close menu"
-      class="c0"
+      class="c5"
       href="#"
       title="Open or close menu"
     >
       <svg
         aria-hidden="true"
         aria-label="Open menu"
-        class="c1"
+        class="c6"
         fill="currentColor"
         focusable="false"
         viewBox="0 0 24 24"
@@ -365,19 +499,19 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
     </a>
     <div
       aria-hidden="true"
-      class="c2"
+      class="c7"
     >
       <nav
-        class="c3"
+        class="c8"
       >
         <div
-          class="c4"
+          class="c9"
         >
           <h1
-            class="c5 c6"
+            class="c10 c11"
           >
             <a
-              class="c7"
+              class="c12"
               href="/"
               target="_self"
             >
@@ -389,14 +523,14 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
           </h1>
         </div>
         <a
-          class="c8"
+          class="c13"
           href="#target"
           target="_self"
         >
           O texto
         </a>
         <a
-          class="c8"
+          class="c13"
           href="#link2"
           target="_blank"
         >
@@ -405,16 +539,16 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
       </nav>
     </div>
     <div
-      class="c9"
+      class="c14"
     >
       <header
-        class="c10"
+        class="c15"
       >
         <h1
-          class="c5 c6"
+          class="c10 c11"
         >
           <a
-            class="c7"
+            class="c12"
             href="/"
             target="_self"
           >
@@ -425,10 +559,10 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
           </a>
         </h1>
         <div
-          class="c11"
+          class="c16"
         >
           <h2
-            class="c5 c12"
+            class="c10 c17"
           >
             Otávio Miranda
           </h2>
@@ -439,18 +573,34 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
       </header>
     </div>
     <div
-      class="c13"
+      class="c18"
+    >
+      <form
+        action="/search/"
+        method="GET"
+      >
+        <input
+          class="c19"
+          name="q"
+          placeholder="Encontre posts"
+          type="search"
+          value=""
+        />
+      </form>
+    </div>
+    <div
+      class="c20"
     >
       Olá mundo
     </div>
     <div
-      class="c14"
+      class="c21"
     >
       <footer
-        class="c15"
+        class="c22"
       >
         <div
-          class="c16"
+          class="c23"
         >
           <p>
             O texto da footer
@@ -459,13 +609,13 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
       </footer>
     </div>
     <a
-      class="c17"
+      class="c24"
       href="#"
       title="Go to top"
     >
       <svg
         aria-hidden="true"
-        class="c1"
+        class="c6"
         fill="currentColor"
         focusable="false"
         viewBox="0 0 24 24"

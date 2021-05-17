@@ -6,9 +6,15 @@ import mock from './mock';
 export default {
   title: 'PostsTemplate',
   component: PostsTemplate,
+
   args: mock,
+
   parameters: {
     layout: 'fullscreen',
+
+    backgrounds: {
+      default: '',
+    },
   },
 } as Meta<PostsTemplateProps>;
 
