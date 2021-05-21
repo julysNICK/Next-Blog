@@ -1,14 +1,38 @@
-Under construction
+## About the project
 
-First, run the development server:
+The project was done with next and used some resources from these framework:
 
-```bash
-npx create-next-app --example https://github.com/julysNICK/Example-next
-# or
-yarn create next-app create-next-app -e https://github.com/julysNICK/Example-next
-```
+React js
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- componentization
+- hooks(useState,useEfect)
+- context api(dark mode,light mode)
+- etc.
+
+Next js
+
+- Dynamic Routes
+- Server-side Rendering
+- Incremental Static Regeneration
+- etc.
+
+## Demonstração
+
+Home.js
+
+![](/img/React-App-Opera-2021-01-03-20-01-23.gif)
+
+Busca.js
+
+![](/img/React-App-Opera-2021-01-05-18-52-11.gif)
+
+Login.js
+
+![](/img/React-App-Opera-2021-01-03-19-17-41.gif)
+
+Pagamento.js
+
+![](/img/React-App-Opera-2021-01-03-19-30-32.gif)
 
 ## Getting Started
 

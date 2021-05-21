@@ -92,18 +92,18 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   text-decoration: none;
 }
 
-.c30 {
+.c31 {
   font-size: calc(1.6rem+ 0.2rem);
   line-height: 1.5;
 }
 
-.c30 p {
+.c31 p {
   margin: 2.4rem 0;
 }
 
-.c30 a,
-.c30 a:visited,
-.c30 a:link {
+.c31 a,
+.c31 a:visited,
+.c31 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -111,47 +111,22 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c30 a:hover {
+.c31 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c30 code {
-  font-family: monospace;
-  color: #dc143c;
-  font-size: 1.6rem;
-  background: #DDDDDD;
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-.c30 pre {
-  background: #000000;
-  padding: 2.4rem;
-  font-family: monospace;
-  color: #FFFFFF;
-  margin: 2.4rem 0;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c30 pre code {
-  color: inherit;
-  background: inherit;
-}
-
-.c30 img {
+.c31 img {
   max-width: 100%;
 }
 
-.c30 .image {
+.c31 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c30 .image figcaption {
+.c31 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
@@ -161,35 +136,35 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   margin: 2.4rem;
 }
 
-.c30 hr {
+.c31 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c30 ul,
-.c30 ol {
+.c31 ul,
+.c31 ol {
   margin: 4.0rem 4.0rem;
 }
 
-.c30 .table {
+.c31 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
   margin: 2.4rem;
 }
 
-.c30 table {
+.c31 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c30 table td,
-.c30 table th {
+.c31 table td,
+.c31 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c30 blockquote {
+.c31 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -199,7 +174,285 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   margin: 2.4rem;
 }
 
-.c31 {
+.c30 pre[class*='language-'],
+.c30 code[class*='language-'] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,'Andale Mono','Ubuntu Mono','Courier New',monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c30 pre[class*='language-']::selection,
+.c30 code[class*='language-']::selection,
+.c30 pre[class*='language-'] *::selection,
+.c30 code[class*='language-'] *::selection {
+  text-shadow: none;
+  background: #75a7ca;
+}
+
+.c30 pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c30:not(pre) > code[class*='language-'] {
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  color: #db4c69;
+  background: #f9f2f4;
+}
+
+.c30 .namespace {
+  opacity: 0.7;
+}
+
+.c30 .token.doctype .token.doctype-tag {
+  color: #569cd6;
+}
+
+.c30 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c30 .token.comment,
+.c30 .token.prolog {
+  color: #6a9955;
+}
+
+.c30 .token.punctuation,
+.c30 .language-html .language-css .token.punctuation,
+.c30 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c30 .token.property,
+.c30 .token.tag,
+.c30 .token.boolean,
+.c30 .token.number,
+.c30 .token.constant,
+.c30 .token.symbol,
+.c30 .token.inserted,
+.c30 .token.unit {
+  color: #b5cea8;
+}
+
+.c30 .token.selector,
+.c30 .token.attr-name,
+.c30 .token.string,
+.c30 .token.char,
+.c30 .token.builtin,
+.c30 .token.deleted {
+  color: #ce9178;
+}
+
+.c30 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c30 .token.operator,
+.c30 .token.entity {
+  color: #d4d4d4;
+}
+
+.c30 .token.operator.arrow {
+  color: #569cd6;
+}
+
+.c30 .token.atrule {
+  color: #ce9178;
+}
+
+.c30 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c30 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c30 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c30 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c30 .token.keyword {
+  color: #569cd6;
+}
+
+.c30 .token.keyword.module,
+.c30 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c30 .token.function,
+.c30 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c30 .token.regex {
+  color: #d16969;
+}
+
+.c30 .token.important {
+  color: #569cd6;
+}
+
+.c30 .token.italic {
+  font-style: italic;
+}
+
+.c30 .token.constant {
+  color: #9cdcfe;
+}
+
+.c30 .token.class-name,
+.c30 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c30 .token.console {
+  color: #9cdcfe;
+}
+
+.c30 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c30 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c30 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c30 .token.boolean {
+  color: #569cd6;
+}
+
+.c30 .token.property,
+.c30 .token.variable,
+.c30 .token.imports .token.maybe-class-name,
+.c30 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c30 .token.selector {
+  color: #d7ba7d;
+}
+
+.c30 .token.escape {
+  color: #d7ba7d;
+}
+
+.c30 .token.tag {
+  color: #569cd6;
+}
+
+.c30 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c30 .token.cdata {
+  color: #808080;
+}
+
+.c30 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c30 .token.attr-value,
+.c30 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c30 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c30 .token.entity {
+  color: #569cd6;
+}
+
+.c30 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c30 pre[class*='language-javascript'],
+.c30 code[class*='language-javascript'],
+.c30 pre[class*='language-jsx'],
+.c30 code[class*='language-jsx'],
+.c30 pre[class*='language-typescript'],
+.c30 code[class*='language-typescript'],
+.c30 pre[class*='language-tsx'],
+.c30 code[class*='language-tsx'] {
+  color: #9cdcfe;
+}
+
+.c30 pre[class*='language-css'],
+.c30 code[class*='language-css'] {
+  color: #ce9178;
+}
+
+.c30 pre[class*='language-html'],
+.c30 code[class*='language-html'] {
+  color: #d4d4d4;
+}
+
+.c30 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c30 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c30 pre[data-line] {
+  position: relative;
+}
+
+.c30 pre[class*='language-'] > code[class*='language-'] {
+  position: relative;
+  z-index: 1;
+}
+
+.c30 .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.c32 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -494,14 +747,21 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c30 {
+  .c31 {
     font-size: 2rem;
   }
 
-  .c30 .image-style-side {
+  .c31 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media print {
+  .c30 pre[class*='language-'],
+  .c30 code[class*='language-'] {
+    text-shadow: none;
   }
 }
 
@@ -798,14 +1058,19 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
         <div
           class="c30"
         >
-          <p>
-            O texto da footer
-          </p>
+          <div
+            class="c31"
+          >
+            <p>
+              O texto da footer
+            </p>
+          </div>
+          ;
         </div>
       </footer>
     </div>
     <a
-      class="c31"
+      class="c32"
       href="#"
       title="Go to top"
     >
@@ -871,18 +1136,18 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   text-decoration: none;
 }
 
-.c27 {
+.c28 {
   font-size: calc(1.6rem+ 0.2rem);
   line-height: 1.5;
 }
 
-.c27 p {
+.c28 p {
   margin: 2.4rem 0;
 }
 
-.c27 a,
-.c27 a:visited,
-.c27 a:link {
+.c28 a,
+.c28 a:visited,
+.c28 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -890,47 +1155,22 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c27 a:hover {
+.c28 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c27 code {
-  font-family: monospace;
-  color: #dc143c;
-  font-size: 1.6rem;
-  background: #DDDDDD;
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-.c27 pre {
-  background: #000000;
-  padding: 2.4rem;
-  font-family: monospace;
-  color: #FFFFFF;
-  margin: 2.4rem 0;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c27 pre code {
-  color: inherit;
-  background: inherit;
-}
-
-.c27 img {
+.c28 img {
   max-width: 100%;
 }
 
-.c27 .image {
+.c28 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c27 .image figcaption {
+.c28 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
@@ -940,35 +1180,35 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   margin: 2.4rem;
 }
 
-.c27 hr {
+.c28 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c27 ul,
-.c27 ol {
+.c28 ul,
+.c28 ol {
   margin: 4.0rem 4.0rem;
 }
 
-.c27 .table {
+.c28 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
   margin: 2.4rem;
 }
 
-.c27 table {
+.c28 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c27 table td,
-.c27 table th {
+.c28 table td,
+.c28 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c27 blockquote {
+.c28 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -978,7 +1218,285 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   margin: 2.4rem;
 }
 
-.c28 {
+.c27 pre[class*='language-'],
+.c27 code[class*='language-'] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,'Andale Mono','Ubuntu Mono','Courier New',monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c27 pre[class*='language-']::selection,
+.c27 code[class*='language-']::selection,
+.c27 pre[class*='language-'] *::selection,
+.c27 code[class*='language-'] *::selection {
+  text-shadow: none;
+  background: #75a7ca;
+}
+
+.c27 pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c27:not(pre) > code[class*='language-'] {
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  color: #db4c69;
+  background: #f9f2f4;
+}
+
+.c27 .namespace {
+  opacity: 0.7;
+}
+
+.c27 .token.doctype .token.doctype-tag {
+  color: #569cd6;
+}
+
+.c27 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c27 .token.comment,
+.c27 .token.prolog {
+  color: #6a9955;
+}
+
+.c27 .token.punctuation,
+.c27 .language-html .language-css .token.punctuation,
+.c27 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c27 .token.property,
+.c27 .token.tag,
+.c27 .token.boolean,
+.c27 .token.number,
+.c27 .token.constant,
+.c27 .token.symbol,
+.c27 .token.inserted,
+.c27 .token.unit {
+  color: #b5cea8;
+}
+
+.c27 .token.selector,
+.c27 .token.attr-name,
+.c27 .token.string,
+.c27 .token.char,
+.c27 .token.builtin,
+.c27 .token.deleted {
+  color: #ce9178;
+}
+
+.c27 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c27 .token.operator,
+.c27 .token.entity {
+  color: #d4d4d4;
+}
+
+.c27 .token.operator.arrow {
+  color: #569cd6;
+}
+
+.c27 .token.atrule {
+  color: #ce9178;
+}
+
+.c27 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c27 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c27 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c27 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c27 .token.keyword {
+  color: #569cd6;
+}
+
+.c27 .token.keyword.module,
+.c27 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c27 .token.function,
+.c27 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c27 .token.regex {
+  color: #d16969;
+}
+
+.c27 .token.important {
+  color: #569cd6;
+}
+
+.c27 .token.italic {
+  font-style: italic;
+}
+
+.c27 .token.constant {
+  color: #9cdcfe;
+}
+
+.c27 .token.class-name,
+.c27 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c27 .token.console {
+  color: #9cdcfe;
+}
+
+.c27 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c27 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c27 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c27 .token.boolean {
+  color: #569cd6;
+}
+
+.c27 .token.property,
+.c27 .token.variable,
+.c27 .token.imports .token.maybe-class-name,
+.c27 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c27 .token.selector {
+  color: #d7ba7d;
+}
+
+.c27 .token.escape {
+  color: #d7ba7d;
+}
+
+.c27 .token.tag {
+  color: #569cd6;
+}
+
+.c27 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c27 .token.cdata {
+  color: #808080;
+}
+
+.c27 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c27 .token.attr-value,
+.c27 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c27 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c27 .token.entity {
+  color: #569cd6;
+}
+
+.c27 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c27 pre[class*='language-javascript'],
+.c27 code[class*='language-javascript'],
+.c27 pre[class*='language-jsx'],
+.c27 code[class*='language-jsx'],
+.c27 pre[class*='language-typescript'],
+.c27 code[class*='language-typescript'],
+.c27 pre[class*='language-tsx'],
+.c27 code[class*='language-tsx'] {
+  color: #9cdcfe;
+}
+
+.c27 pre[class*='language-css'],
+.c27 code[class*='language-css'] {
+  color: #ce9178;
+}
+
+.c27 pre[class*='language-html'],
+.c27 code[class*='language-html'] {
+  color: #d4d4d4;
+}
+
+.c27 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c27 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c27 pre[data-line] {
+  position: relative;
+}
+
+.c27 pre[class*='language-'] > code[class*='language-'] {
+  position: relative;
+  z-index: 1;
+}
+
+.c27 .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.c29 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -1273,14 +1791,21 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 @media (max-width:768px) {
-  .c27 {
+  .c28 {
     font-size: 2rem;
   }
 
-  .c27 .image-style-side {
+  .c28 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media print {
+  .c27 pre[class*='language-'],
+  .c27 code[class*='language-'] {
+    text-shadow: none;
   }
 }
 
@@ -1491,14 +2016,19 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
         <div
           class="c27"
         >
-          <p>
-            O texto da footer
-          </p>
+          <div
+            class="c28"
+          >
+            <p>
+              O texto da footer
+            </p>
+          </div>
+          ;
         </div>
       </footer>
     </div>
     <a
-      class="c28"
+      class="c29"
       href="#"
       title="Go to top"
     >
