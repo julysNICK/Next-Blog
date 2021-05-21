@@ -1,4 +1,4 @@
-## About the project
+## ❤️About the project
 
 The project was done with next and used some resources from these framework:
 
@@ -16,25 +16,29 @@ Next js
 - Incremental Static Regeneration
 - etc.
 
-## Demonstração
+## 🔥Demonstração
 
-Home.js
+light mode
 
-![](/img/React-App-Opera-2021-01-03-20-01-23.gif)
+![](img/modoclaro1.PNG)
 
-Busca.js
+dark mode
 
-![](/img/React-App-Opera-2021-01-05-18-52-11.gif)
+![](img/Modoescuro2.PNG)
 
-Login.js
+Menu open
 
-![](/img/React-App-Opera-2021-01-03-19-17-41.gif)
+![](img/menuaberto.PNG)
 
-Pagamento.js
+Page post
 
-![](/img/React-App-Opera-2021-01-03-19-30-32.gif)
+![](img/paginapostsindi.PNG)
 
-## Getting Started
+no post
+
+![](img/semposts.PNG)
+
+## 💻Getting Started
 
 second, run the development server:
 
